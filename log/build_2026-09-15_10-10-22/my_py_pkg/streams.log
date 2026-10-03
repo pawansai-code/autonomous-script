@@ -1,0 +1,25 @@
+[0.837s] Invoking command in '/home/pawan/ros2_ws/src/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pawan/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/pawan/ros2_ws/build/my_py_pkg/build install --record /home/pawan/ros2_ws/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed install_data
+[1.072s] running egg_info
+[1.090s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.094s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.094s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.094s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.129s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.130s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.131s] running build
+[1.131s] running build_py
+[1.131s] copying my_py_pkg/publisher.py -> /home/pawan/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.131s] copying my_py_pkg/subscriber.py -> /home/pawan/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.131s] running install
+[1.137s] running install_lib
+[1.155s] copying /home/pawan/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/publisher.py -> /home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.155s] copying /home/pawan/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/subscriber.py -> /home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.156s] byte-compiling /home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/publisher.py to publisher.cpython-312.pyc
+[1.156s] byte-compiling /home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/subscriber.py to subscriber.cpython-312.pyc
+[1.157s] running install_data
+[1.157s] running install_egg_info
+[1.176s] removing '/home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[1.176s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[1.177s] running install_scripts
+[1.292s] writing list of installed files to '/home/pawan/ros2_ws/build/my_py_pkg/install.log'
+[1.322s] Invoked command in '/home/pawan/ros2_ws/src/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pawan/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/pawan/ros2_ws/build/my_py_pkg/build install --record /home/pawan/ros2_ws/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed install_data

@@ -1,0 +1,27 @@
+[2.647s] Invoking command in '/home/pawan/ros2_ws/src/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pawan/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/pawan/ros2_ws/build/my_py_pkg/build install --record /home/pawan/ros2_ws/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed install_data
+[3.205s] running egg_info
+[3.248s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[3.248s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[3.249s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[3.251s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[3.251s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[3.329s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.331s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.331s] running build
+[3.332s] running build_py
+[3.332s] copying my_py_pkg/arm_disarm.py -> /home/pawan/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[3.332s] running install
+[3.342s] running install_lib
+[3.385s] copying /home/pawan/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/arm_disarm.py -> /home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[3.387s] byte-compiling /home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/arm_disarm.py to arm_disarm.cpython-312.pyc
+[3.388s] running install_data
+[3.388s] running install_egg_info
+[3.431s] removing '/home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[3.432s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[3.434s] running install_scripts
+[3.691s] Installing add_two_server script to /home/pawan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.692s] Installing my_arm_test script to /home/pawan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.692s] Installing publisher_node script to /home/pawan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.693s] Installing subscriber_node script to /home/pawan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.694s] writing list of installed files to '/home/pawan/ros2_ws/build/my_py_pkg/install.log'
+[3.781s] Invoked command in '/home/pawan/ros2_ws/src/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pawan/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/pawan/ros2_ws/build/my_py_pkg/build install --record /home/pawan/ros2_ws/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed install_data

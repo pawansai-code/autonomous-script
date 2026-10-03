@@ -1,0 +1,41 @@
+[1.319s] Invoking command in '/home/pawan/ros2_ws/build/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pawan/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pawan/ros2_ws/build/my_py_pkg/build
+[1.832s] running develop
+[2.164s] Removing /home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[2.227s] Invoked command in '/home/pawan/ros2_ws/build/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pawan/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pawan/ros2_ws/build/my_py_pkg/build
+[2.228s] Invoking command in '/home/pawan/ros2_ws/src/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pawan/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/pawan/ros2_ws/build/my_py_pkg/build install --record /home/pawan/ros2_ws/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed install_data --force
+[2.648s] running egg_info
+[2.679s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.680s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.680s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.680s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.681s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.744s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.745s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.746s] running build
+[2.746s] running build_py
+[2.746s] copying my_py_pkg/add_two_server.py -> /home/pawan/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.747s] copying my_py_pkg/template.py -> /home/pawan/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.747s] running install
+[2.755s] running install_lib
+[2.788s] creating /home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.788s] copying /home/pawan/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.788s] copying /home/pawan/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_server.py -> /home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.788s] copying /home/pawan/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/template.py -> /home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.788s] copying /home/pawan/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/publisher.py -> /home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.789s] copying /home/pawan/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/subscriber.py -> /home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.790s] byte-compiling /home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__init__.py to __init__.cpython-312.pyc
+[2.790s] byte-compiling /home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_server.py to add_two_server.cpython-312.pyc
+[2.791s] byte-compiling /home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/template.py to template.cpython-312.pyc
+[2.792s] byte-compiling /home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/publisher.py to publisher.cpython-312.pyc
+[2.792s] byte-compiling /home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/subscriber.py to subscriber.cpython-312.pyc
+[2.793s] running install_data
+[2.793s] copying resource/my_py_pkg -> /home/pawan/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.793s] copying package.xml -> /home/pawan/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[2.794s] running install_egg_info
+[2.828s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[2.829s] running install_scripts
+[3.043s] Installing add_two_server script to /home/pawan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.043s] Installing publisher_node script to /home/pawan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.044s] Installing subscriber_node script to /home/pawan/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.044s] writing list of installed files to '/home/pawan/ros2_ws/build/my_py_pkg/install.log'
+[3.099s] Invoked command in '/home/pawan/ros2_ws/src/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pawan/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/pawan/ros2_ws/build/my_py_pkg/build install --record /home/pawan/ros2_ws/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed install_data --force
